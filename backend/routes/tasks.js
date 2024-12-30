@@ -8,24 +8,21 @@ const db = await connectToDatabase();
 let tasks = [
   {
     id: 1,
-    naslov: 'Kupiti namirnice',
-    opis: 'Idi kupiti namirnice danas',
+    naslov: 'Kupiti kruh',
+    opis: 'Idi kupiti kruh danas',
     zavrsen: false,
-    tags: ['hitno'],
   },
   {
     id: 2,
-    naslov: 'Riješi zadatak za WA',
-    opis: 'Ponovi zadatke za kolokvij',
+    naslov: 'Naučiti Vue.js',
+    opis: 'Prouči malo Vue.js dokumentaciju',
     zavrsen: false,
-    tags: ['hitno'],
   },
   {
     id: 3,
-    naslov: 'Idi hodati',
-    opis: 'Uzivaj vani',
+    naslov: 'Riješi zadaću iz UPP-a',
+    opis: 'Please natjeraj se riješiti zadaću iz UPP-a, moraš i taj kolegij proći!',
     zavrsen: false,
-    tags: ['pomalo'],
   },
 ];
 
